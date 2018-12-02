@@ -1,0 +1,20 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "simple blockchain in typescript",
+  "main": "index.js",
+  "author": "h3x.",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "elliptic": "^6.4.1",
+    "hash.js": "^1.1.7",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.1"
+  },
+  "scripts": {
+    "start": "ts-node index.ts",
+    "genkey": "ts-node genkey.ts"
+  }
+}
